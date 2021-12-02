@@ -1,0 +1,4 @@
+User-agent: *
+Allow: *
+
+Sitemap: http://nevsky-pskov.ru/sitemap.xml

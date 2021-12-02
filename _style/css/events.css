@@ -1,0 +1,122 @@
+.event-card {
+    background-color: #f3f4f5;
+    /* background-color: #ecedf0; */
+    /* border: 1px solid #c1c3c4;
+    border: 1px solid #cccecf; */
+
+    border-radius: 3px;
+}
+
+.card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.event-card:hover {
+    /* background-color: #f8e4ae;
+    background-color: #e9eaec;
+    border-bottom: 1px solid #c5cdd1;
+    margin-bottom: -1px; */
+}
+
+.event-card_img {
+    height: 180px;
+    object-fit: cover;
+    opacity: 0.92;
+    border-radius: 5px;
+}
+
+.event-card:hover .event-card_img {
+    opacity: 0.95;
+}
+
+.event-card_title {
+    font-size: 1.05rem;
+    font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+    color: #3d3d3d;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.event-card_title a {
+    color: #212529;
+}
+
+.event-card_title a:hover {
+    color: #fe4035;
+}
+
+/* .card-text {
+    text-align: left;
+} */
+
+.card-subtitle {
+    text-align: left;
+}
+
+.event-card_a {
+    color: #212529;
+}
+
+.event-card_a:hover .event-card_title {
+    color: #fe4035;
+}
+
+.event-card2 {
+    background-color: #ecedf0;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .event-card_img {
+        height: 13rem;
+    }
+}
+
+.a {
+    /* color: #3d3d3d; */
+    font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    text-decoration: none;
+    background-color: transparent;
+    /* border: 1px solid #3d3d3d;
+    padding: 5px;
+    border-radius: 4px; */
+}
+
+.page-link {
+    color: #212529;
+    background-color: #f3f4f5;
+    border: 1px solid #cfd2d6;
+    border-radius: 2px;
+    margin-right: -1px;
+}
+
+.page-link:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.page-link:hover {
+    color: #212529;
+}
+
+li button {
+    background-color: #e7e9eb;
+}
+
+li button.active{
+    color: #212529;
+    background-color: #d0dadf;
+}
+
+.pagination {
+    margin-bottom: 3rem;
+}
+
+.content_small {
+    min-height: 33vw;
+}
