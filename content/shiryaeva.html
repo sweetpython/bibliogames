@@ -4,23 +4,51 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Игротека по книге Ирины Ширяевой «Меч и терновник»</title>
-        <link rel="stylesheet" href="/style/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/style/fonts/css/all.css">
-        <link rel="stylesheet" href="/style/css/main.css">
-        <link rel="shortcut icon" href="/images/logo-small.png" type="image/x-icon">
+        <link rel="stylesheet" href="../style/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../style/fonts/css/all.css">
+        <link rel="stylesheet" href="../style/css/main.css">
+        <link rel="shortcut icon" href="../images/logo-small.png" type="image/x-icon">
         <meta name="description" content="Игротека по книге Ирины Ширяевой «Меч и терновник»">
         <meta name="author" content="Alexander Mikhaylov">
 
     </head>
     <body>
         <section class="bg_color-1 sticky-top">
-            <?php include_once ('../templates/header.html');?>
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="first mb-0 mt-0 pt-0">
+                        <a href="/index.html"><img src="../images/logo.png" width="40"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
+                            <li class="nav-item pe-1">
+                                <a class="nav-link pl-0" href="/index.html#bibliogames">Библиоигры</a>
+                            </li>
+                            <li class="nav-item pe-1">
+                                <a class="nav-link" href="/index.html#books">Книга месяца</a>
+                            </li>
+                            <li class="nav-item pe-1">
+                                <a class="nav-link" href="/index.html#games">Игротеки</a>
+                            </li>
+                            <li class="nav-item pe-1">
+                                <a class="nav-link" href="/index.html#quizzes">Викторины</a>
+                            </li>
+                            <li class="nav-item pe-1">
+                                <a class="nav-link" href="/index.html#writers">Писатель рекомендует</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </section>
         <section class="mt-4">
             <div class="container">
                 <nav aria-label="breadcrumb mb-0">
                     <ol class="breadcrumb pb-0">
-                        <li class="breadcrumb-item"><a href="/index.html">Главная</a></li>
+                        <li class="breadcrumb-item"><a href="../index.html">Главная</a></li>
                         <li class="breadcrumb-item"><a href="akvilegiya.html">Игротека по книгам издательства «Аквилегия-М»</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Игротека по книге Ирины Ширяевой</li>
                     </ol>
@@ -29,7 +57,7 @@
                     <h5 class="ps-0">Игротека по книге Ирины Ширяевой «Меч и терновник»</h5>
                     <hr>
                     <div class="col-8 col-md-3 ps-0">
-                        <img src="/images/books/shiryaeva.jpg" class="img-fluid book-img_games">
+                        <img src="../images/books/shiryaeva.jpg" class="img-fluid book-img_games">
                     </div>
                     <div class="col-md-9 pl-lg-4">
                         <!-- <div class="modal_book-caption pb-2">Меч и терновник</div> -->
@@ -208,7 +236,7 @@
             <?php include_once ('../templates/footer.html');?>
         </footer>
         <button onclick="topFunction()" id="btnUp" class="btnUp" title="Go to top"><i class="fa fa-chevron-up"></i></button>
-        <script src="/style/js/bootstrap.bundle.js"></script>
-        <script src="/style/js/scroll.js"></script>
+        <script src="../style/js/bootstrap.bundle.js"></script>
+        <script src="../style/js/scroll.js"></script>
     </body>
 </html>
