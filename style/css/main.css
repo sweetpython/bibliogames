@@ -301,9 +301,9 @@ a:hover {
 }
 
 .card_writers_big {
-    width: 12rem;
-    height: 12rem;
-    margin-bottom: 1rem;
+    width: 11rem;
+    height: 11rem;
+    margin-bottom: 0.5rem;
 }
 
 .card_writers > div {
