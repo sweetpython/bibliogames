@@ -4,23 +4,51 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Головоломки по современным книгам для детей</title>
-        <link rel="stylesheet" href="/style/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/style/fonts/css/all.css">
-        <link rel="stylesheet" href="/style/css/main.css">
-        <link rel="shortcut icon" href="/images/logo-small.png" type="image/x-icon">
+        <link rel="stylesheet" href="../style/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../style/fonts/css/all.css">
+        <link rel="stylesheet" href="../style/css/main.css">
+        <link rel="shortcut icon" href="../images/logo-small.png" type="image/x-icon">
         <meta name="description" content="Головоломки по современным книгам для детей">
         <meta name="author" content="Alexander Mikhaylov">
 
     </head>
     <body>
         <section class="bg_color-1 sticky-top">
-            <?php include_once ('../templates/header.html');?>
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="first mb-0 mt-0 pt-0">
+                        <a href="../index.html"><img src="../images/logo.png" width="40"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
+                            <li class="nav-item pe-1">
+                                <a class="nav-link pl-0" href="/index.html#bibliogames">Библиоигры</a>
+                            </li>
+                            <li class="nav-item pe-1">
+                                <a class="nav-link" href="/index.html#books">Книга месяца</a>
+                            </li>
+                            <li class="nav-item pe-1">
+                                <a class="nav-link" href="/index.html#games">Игротеки</a>
+                            </li>
+                            <li class="nav-item pe-1">
+                                <a class="nav-link" href="/index.html#quizzes">Викторины</a>
+                            </li>
+                            <li class="nav-item pe-1">
+                                <a class="nav-link" href="/index.html#writers">Писатель рекомендует</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </section>
         <section class="mt-4" id="bibliogames">
             <div class="container">
                 <nav aria-label="breadcrumb mb-0">
                     <ol class="breadcrumb pb-0">
-                    <li class="breadcrumb-item"><a href="/index.html">Главная</a></li>
+                    <li class="breadcrumb-item"><a href="../index.html">Главная</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Головоломки</li>
                     </ol>
                 </nav>
@@ -41,18 +69,18 @@
                         <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                             <div class="content">
                                 <p>Библиотека семейного чтения предлагает вам разгадать ребус по новой книге для ребят Виктора Лунина "Приключения Сдобной Лизы". Разгадав данный ребус, вы окунетесь в тайны кондитерского искусства и узнаете, в честь какой сладости назвали замечательный городок, где живет кондитер Крем и Сдобная Лиза.</p>
-                                <img src="/images/rebus.webp" class="col-12 col-sm-6 pb-2">
+                                <img src="../images/rebus.webp" class="col-12 col-sm-6 pb-2">
                             </div>
                             <div class="content">
                                 <p>Библиотека семейного чтения предлагает вам угадать, что за слово мы скрыли за этой комбинацией фигур. И если вы справитесь с этой задачей, то встретитесь с одним из героев книги «Озорные истории» Тамары Крюковой.</p>
-                                <img src="/images/rebus2.webp" class="col-12 col-sm-6 pb-2">
+                                <img src="../images/rebus2.webp" class="col-12 col-sm-6 pb-2">
                             </div>
                             <div class="content">
                                 <p>Библиотека-Центр общения и информации предлагает вашему вниманию увлекательные ребусы по книге Кэтрин М. Валенте "Девочка, которая объехала Волшебную страну на самодельном корабле"</p>
                                 <div class="row">
-                                    <img src="/images/rebus3.webp" class="col-12 col-sm-6 pb-2">
-                                    <img src="/images/rebus4.webp" class="col-12 col-sm-6 pb-2">
-                                    <img src="/images/rebus5.webp" class="col-12 col-sm-6 pb-2">
+                                    <img src="../images/rebus3.webp" class="col-12 col-sm-6 pb-2">
+                                    <img src="../images/rebus4.webp" class="col-12 col-sm-6 pb-2">
+                                    <img src="../images/rebus5.webp" class="col-12 col-sm-6 pb-2">
                                 </div>
                             </div>
                         </div>
@@ -123,10 +151,68 @@
             <path d="M 0,400 C 0,400 0,266 0,266 C 68.08044918998527,251.72956553755523 136.16089837997055,237.45913107511046 190,228 C 243.83910162002945,218.54086892488954 283.4368556701031,213.8930412371134 335,225 C 386.5631443298969,236.1069587628866 450.09167893961705,262.9687039764359 517,270 C 583.908321060383,277.0312960235641 654.1964285714284,264.2321428571429 723,255 C 791.8035714285716,245.7678571428571 859.1226067746687,240.1027245949926 921,233 C 982.8773932253313,225.8972754050074 1039.3131443298969,217.35695876288662 1093,220 C 1146.6868556701031,222.64304123711338 1197.6248159057436,236.46944035346098 1255,246 C 1312.3751840942564,255.53055964653902 1376.1875920471282,260.7652798232695 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#2da4d8ff" class="transition-all duration-300 ease-in-out delay-150 path-1"></path>
         </svg>
         <footer class="footer bg_color-1">
-            <?php include_once ('../templates/footer.html');?>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 pe-2">
+                        <div class="footer-col first">
+                            <img src="../images/logo.png" width="80">
+                        </div>
+                    </div>
+                    <div class="col-md-4 ps-sm-5">
+                        <div class="footer-col">
+                            <h4>О сайте</h4>
+                            <p class="p-small">Сайт создан сотрудниками муниципального автономного учреждения культуры<br> «Централизованная библиотечная система»<br> города Пскова</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ps-lg-5">
+                        <div class="footer-col last">
+                            <h4>Контакты</h4>
+                            <ul class="list-unstyled li-space-lg p-small">
+                                <li class="footer_media">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div class="footer_media-body">180007, г. Псков, ул. Конная, д. 6</div>
+                                </li>
+                                <li class="footer_media">
+                                    <i class="fas fa-envelope"></i>
+                                    <div class="footer_media-body"><a class="white" href="admin@bibliopskov.ru">admin@bibliopskov.ru</a></div>
+                                </li>
+                            </ul>
+                        </div> 
+                    </div>
+                     <div class="col-md-3 ps-lg-4">
+                        <div class="footer-col">
+                            <h4>Социальные сети</h4>
+                            <div class="icon-container">
+                                <span class="fa-stack ps-sm-0">
+                                    <a href="https://vk.com/club12518403" target="_blank">
+                                        <i class="fas fa-circle fa-stack-2x ps-sm-0"></i>
+                                        <i class="fab fa-vk fa-stack-1x"></i>
+                                    </a>
+                                </span>
+                                <span class="fa-stack">
+                                    <a href="https://www.youtube.com/channel/UCDQ84PtJf-AdLE-3ylHkUQw" target="_blank">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-youtube fa-stack-1x"></i>
+                                    </a>
+                                </span>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="p-small"></p>
+                            <!-- <p class="p-small"><a href="http://bibliopskov.ru/">МАУК «ЦБС» г. Пскова</a></p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
         <button onclick="topFunction()" id="btnUp" class="btnUp" title="Go to top"><i class="fa fa-chevron-up"></i></button>
-        <script src="/style/js/bootstrap.bundle.js"></script>
-        <script src="/style/js/scroll.js"></script>
+        <script src="../style/js/bootstrap.bundle.js"></script>
+        <script src="../style/js/scroll.js"></script>
     </body>
 </html>
